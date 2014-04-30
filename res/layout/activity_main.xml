@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   	android:orientation="vertical" >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register food-place"
+        android:id="@+id/foodOwnerButton"
+        android:onClick="startFoodOwnerActivity" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register your charity or organization"
+        android:id="@+id/othersButton" 
+        android:onClick="startOthersActivity"/>
+    
+    <!-- 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search the DB"
+        android:id="@+id/queryButton" 
+        android:onClick="startQueryActivity"/>
+    -->
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/loginButton" 
+        android:onClick="startLoginActivity"/>
+
+</LinearLayout>

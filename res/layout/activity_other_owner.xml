@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter you and your organization's information here: "
+        android:textSize="18sp" />
+       
+   <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter username"
+        android:id="@+id/organizationUsername"/>
+   
+   <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Enter password"
+        android:id="@+id/organizationPassword"/>
+
+    
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your organization name"
+        android:id="@+id/organizationName"/>
+
+
+   
+   <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/otherOwnerSubmit" 
+        android:onClick="sendData"/>
+   
+   
+   <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:id="@+id/otherOwnerClear" 
+        android:onClick="clearAll"/>
+
+</LinearLayout>

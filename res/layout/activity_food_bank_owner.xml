@@ -1,0 +1,91 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+   	 	android:layout_height="wrap_content"
+   	 	android:orientation="vertical">
+   	 	
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Enter you and your restaurant's information here: "
+	        android:textSize="18sp" />
+	    
+	    <EditText
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="Enter your username"
+	        android:id="@+id/foodPlaceOwnerName"/>
+	    
+	    
+	   <EditText
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="Enter password"
+	        android:inputType="textPassword"
+	        android:id="@+id/foodPlaceOwnerPassword"/>
+	    
+	
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Enter your food place's information here: "
+	        android:textSize="18sp" />
+	    
+	    <EditText
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="Enter your food place name"
+	        android:id="@+id/foodPlaceName"/>
+	    
+	   <EditText
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="Enter street address"
+	        android:id="@+id/foodPlaceStreetAddress"/>
+	   
+	   <EditText
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="Enter city name"
+	        android:id="@+id/foodPlaceCity"/>
+	   
+	   <EditText
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="Enter two-letter state code"
+	        android:id="@+id/foodPlaceState"/>
+	   
+	   <EditText
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="Enter zip code"
+	        android:id="@+id/foodPlaceZip"/>
+	   
+	   <EditText
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:inputType="phone"
+	        android:hint="Enter phone number (without dashes)"
+	        android:id="@+id/foodPlacePhone"/>
+	   
+	   <Button
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Submit"
+	        android:id="@+id/foodBankOwnerSubmit" 
+	        android:onClick="sendData"/>
+	   
+	   <Button
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Clear"
+	        android:id="@+id/foodBankOwnerClear" 
+	        android:onClick="clearAll"/>
+	   
+	 </LinearLayout>
+
+</ScrollView>

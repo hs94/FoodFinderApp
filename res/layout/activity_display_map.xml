@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<AbsoluteLayout
+		android:id="@+id/simpleGM_layout"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		xmlns:android="http://schemas.android.com/apk/res/android">
+		
+	<com.google.android.maps.MapView android:id="@+id/simpleGM_map"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:apiKey="Any"
+		android:layout_x="2px"
+		android:layout_y="100px"
+		android:clickable="true" />
+</AbsoluteLayout>
